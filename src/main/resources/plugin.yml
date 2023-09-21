@@ -1,0 +1,5 @@
+main: me.pi3ro.pvplounge.PvPLounge
+name: PvPLoungeHub
+author: Pi3ro
+version: 1.0
+depend: [PlaceholderAPI]

@@ -1,0 +1,40 @@
+SCOREBOARD:
+  ENABLED: true
+  TITLE: "    &6&lPvPLounge    "
+  LINES:
+    - "&c&lPractice: &c%bungee_PracticeUS%"
+    - "&e&lLobby: &c%bungee_Lobby%"
+
+JOIN-MESSAGE:
+  ENABLED: true
+  LINES:
+    - ""
+    - "&6&lPvPLounge &7[Hub]"
+    - "&e&lMade by &c&lPi3ro"
+    - ""
+
+SERVERS:
+  TITLE: "&6Choose a server..."
+  SERVER_1: #to 9
+    TITLE: "&cPractice US"
+    SLOT: 0
+    ITEM: DIAMOND_SWORD
+    DURABILITY: 0
+    SEND-SERVER: "PracticeUS"
+    LORE:
+      - "&9Players: %bungee_PracticeUS%"
+  SERVER_2:
+    TITLE: "&cPractice EU"
+    SLOT: 1
+    ITEM: IRON_SWORD
+    DURABILITY: 0
+    SEND-SERVER: "PracticeEU"
+    LORE:
+      - "&9Players: %bungee_PracticeEU%"
+  LEAVE:
+    TITLE: "&cLeave the network"
+    SLOT: 17
+    ITEM: INK_SACK
+    DURABILITY: 1
+    MESSAGE: "&cThank you for flying PvPLounge"
+    LORE: []
